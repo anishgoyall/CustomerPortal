@@ -9,7 +9,7 @@ Follow the instructions below to set up and run the app on your local developmen
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/anishgoyall/customer-portal.git
+   git clone https://github.com/anishgoyall/CustomerPortal.git
    cd customer-portal
 
 2. Install Dependencies
