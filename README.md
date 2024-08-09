@@ -9,17 +9,20 @@ Follow the instructions below to set up and run the app on your local developmen
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/anishgoyall/customer-portal.git
+   git clone https://github.com/anishgoyall/CustomerPortal.git
    cd customer-portal
 
 2. Install Dependencies
    ```bash
    npm install
 
-3. Create the Configuration File
+3. Add Environment Variable
+   
+   Create a .env file in the root of your project.
+   Add the following line to the .env file:
+   ```bash
+   REACT_APP_UNSPLASH_ACCESS_KEY=your-unsplash-access-key-here
 
-   You need to create a config.ts file inside the config folder according to the config.sample.ts file in the same folder.
-
-4. Run the App
+5. Run the App
     ```bash
     npm start
