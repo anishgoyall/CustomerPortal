@@ -16,10 +16,13 @@ Follow the instructions below to set up and run the app on your local developmen
    ```bash
    npm install
 
-3. Create the Configuration File
+3. Add Environment Variable
+   
+   Create a .env file in the root of your project.
+   Add the following line to the .env file:
+   ```bash
+   unsplashAccessKey=your-unsplash-access-key-here
 
-   You need to create a config.ts file inside the config folder according to the config.sample.ts file in the same folder.
-
-4. Run the App
+5. Run the App
     ```bash
     npm start
